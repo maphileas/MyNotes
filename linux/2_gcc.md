@@ -9,7 +9,6 @@
   -I目录，指定头文件目录，注意-I和目录之间没有空格（也可以有空格）
   -c 只编译，生成.o文件，不进行连接
   -g 包含调试信息
-  -o 指定生成的输出文件
   -On n=0~3 编译优化，n越大优化得越多
   -Wall 提示更多警告信息
   -D<DEF> 编译时定义宏，注意-D和<DEF>之间没有空格
@@ -138,7 +137,7 @@ gcc test.c libmymath.a -o test
 
   gcc test.c libmymath.a -o test  -Wall
 
-  ![2023-03-11_220636.jpg]([pic2/2023-03-11_220636.jpg](https://cdn.jsdelivr.net/gh/maphileas/blog_album@main/note/2023-03-11_220636.jpg))
+  ![2023-03-11_220636.jpg](https://cdn.jsdelivr.net/gh/maphileas/blog_album@main/note/2023-03-11_220636.jpg)
 
   这是因为在test.c中没有申明add、sub、div函数。
 
@@ -174,7 +173,7 @@ gcc test.c libmymath.a -o test
   gcc test.c libmymath.a -o test
   ```
 
-  ![2023-03-11_224115.jpg](pic2/2023-03-11_224115.jpg)
+  ![2023-03-11_224115.jpg](https://cdn.jsdelivr.net/gh/maphileas/blog_album@main/note/2023-03-11_224115.jpg)
 
   将mymath.h放入inc/文件夹下，libmymath.a放入lib/文件夹下。符合项目的实际开发，在进行编译，如上图。
 
