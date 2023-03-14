@@ -138,7 +138,7 @@ gcc test.c libmymath.a -o test
 
   gcc test.c libmymath.a -o test  -Wall
 
-  ![](pic2/2023-03-11_220636.jpg)
+  ![2023-03-11_220636.jpg]([pic2/2023-03-11_220636.jpg](https://cdn.jsdelivr.net/gh/maphileas/blog_album@main/note/2023-03-11_220636.jpg))
 
   这是因为在test.c中没有申明add、sub、div函数。
 
