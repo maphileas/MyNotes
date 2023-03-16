@@ -126,7 +126,7 @@ clean:
         -rm -rf $(obj) a.out
 ```
 
-![2023-03-15_173633.jpg](E:\Notes\C系统编程\pic3\2023-03-15_173633.jpg)
+!{}(https://cdn.jsdelivr.net/gh/maphileas/blog_album@main/note/2023-03-15_173633.jpg)
 
 ## 3.三个自动变量
 
